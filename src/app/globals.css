@@ -3,19 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: rgb(171, 137, 240);
+  --foreground: #000;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-contenido {
+  background-image: url("../../public/WhatsApp Image 2024-10-25 at 7.30.23 AM.jpeg");
 }
